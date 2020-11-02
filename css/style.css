@@ -1,0 +1,699 @@
+body {
+    padding-top: 51px;
+    position: relative;
+}
+
+hr {
+    border-top: 1px solid rgba(255, 52, 52, 0.541)
+}
+
+
+.langs {
+    background-color: rgb(250, 50, 50);
+    position: fixed;
+    z-index: 9999;
+    padding: 5px 10px;
+}
+
+.langs i {
+    cursor: pointer;
+    color: #fff;
+}
+
+.langs .select-langs {
+    display: none;
+}
+
+.langs .select-langs span {
+    background-color: #2222225e;
+    font-size: 1.5em;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+/* ================================== */
+/* Start slider  */
+.carousel-indicators {
+    bottom: 0px
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 16px
+}
+
+.carousel-indicators .active {
+    background-color: rgb(250, 50, 50);
+    width: 18px;
+    height: 18px
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: all .5s ease-in-out;
+}
+
+.carousel-caption:hover {
+    transform: scale(1.08)
+}
+
+/* ========================================================================== */
+/* start About Section  */
+.about {
+    color: rgb(77, 77, 77)
+}
+
+.about h1 {
+    margin-bottom: 40px;
+    margin-top: 50px
+}
+
+.about h1 a {
+    color: rgb(87 87 87);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about h1 span {
+    color: rgb(250, 50, 50)
+}
+
+.about .lead {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(60 60 60);
+    font-style: italic;
+}
+
+hr {
+    border-top: 1px solid rgba(255, 52, 52, 0.541)
+}
+
+/* ========================================================================== */
+/* Start Our Fearures */
+.our-features h2 {
+    margin-bottom: 45px
+}
+
+.our-features .feat {
+    margin-bottom: 40px;
+    transition: all .3s ease-in-out
+}
+
+.our-features .feat:hover {
+    transform: scale(1.05)
+}
+
+.our-features .feat img {
+    width: 100%;
+    position: relative
+}
+
+.our-features .feat .overlay h3 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.17);
+    top: 0;
+    width: 95%;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.our-features .feat .overlay h3:hover {
+    height: 100%;
+    line-height: 315px
+}
+
+.our-features .feat .overlay h3:not(.front) {
+    width: 92.5%
+}
+
+.our-features .feat .overlay h3:not(.front):hover {
+    height: 100%;
+    line-height: 230px
+}
+
+/* ======================================================= */
+/* Start for-you  */
+.for-you h2 {
+    color: rgb(77, 77, 77);
+    margin-bottom: 40px;
+    margin-top: 50px
+}
+
+.for-you h2 a {
+    color: rgb(87 87 87);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.for-you h2 span {
+    color: rgb(250, 50, 50)
+}
+
+.for-you .lead {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(60 60 60)
+}
+
+.for-you .btn-all {
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.for-you .btn-all .btn-success {
+    background-color: rgb(250, 50, 50);
+    border: 1px solid rgb(105, 105, 105);
+    box-shadow: 2px 2px 4px #f00;
+}
+
+.for-you .btn-all .btn-success:hover {
+    background-color: rgb(156, 0, 0)
+}
+
+.for-you .slice-1 {
+    margin-bottom: 20px;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.for-you .slice-1:hover {
+    box-shadow: 1px 1px 4px #000;
+    transform: scale(1.05) skewX(2deg)
+}
+
+.for-you .slice-1 img {
+    width: 100%
+}
+
+.for-you .slice-1 h3 {
+    color: rgb(77, 77, 77)
+}
+
+.for-you .slice-1 .more a {
+    width: 100px;
+    color: #000;
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+    font-weight: bold;
+}
+
+/* ======================================================================== */
+/* Start Wedding services providers  */
+.services h2 {
+    color: rgb(77, 77, 77);
+    margin-bottom: 40px;
+    margin-top: 50px
+}
+
+.services .serv .imgy a img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px #000;
+    opacity: .85;
+    transition: all .5s ease-in-out;
+}
+
+.services .serv .imgy a img:hover {
+    opacity: 1;
+    border: 1px solid rgb(95, 95, 95);
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.services .serv h3 {
+    font-weight: bold;
+    font-size: 30px
+}
+
+.services .serv .price a {
+    background-color: rgb(250, 50, 50);
+    padding: 7px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.services .all-serv {
+    background-color: #333333;
+    margin-top: 30px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.services .all-serv h3 {
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: bold
+}
+
+.services .all-serv a {
+    font-size: 20px;
+    color: #fff
+}
+
+/* =================================================================== */
+/* Start Photo Album  */
+.photo-album h2 {
+    margin-bottom: 45px
+}
+
+.photo-album .filter-nav .btn {
+    margin: 10px -2px 5px 0;
+    margin-right: -2px
+}
+
+.photo-album .filter-gallery {
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.photo-album .filter-gallery .mix {
+    position: relative;
+    padding: 15px 8px 0
+}
+
+.photo-album .filter-gallery .mix a img {
+    width: 100%;
+    transition: all .5s ease-in-out
+}
+
+.photo-album .filter-gallery .mix a img:hover {
+    transform: scale(1.1)
+}
+
+.photo-album .filter-gallery .mix a h6 {
+    background-color: rgba(0, 0, 0, 0.17);
+    position: absolute;
+    padding: 10px 0;
+    bottom: 36px;
+    width: 94.5%;
+    z-index: 5;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.photo-album .filter-gallery .mix p {
+    float: left;
+    padding: 8px;
+    color: #000;
+    background-color: #b4b4b4;
+    border-radius: 0 0 10px 10px;
+}
+
+.photo-album .filter-gallery .mix a span {
+    float: right;
+    padding: 8px;
+    color: #000;
+    background-color: #b4b4b4;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+}
+
+.photo-album .filter-gallery .some-models {
+    background-color: rgb(180, 180, 180);
+    border-radius: 20px;
+    margin-top: 15px;
+    min-height: 391px;
+}
+
+.photo-album .filter-gallery .some-models .final a p.all-1 {
+    color: #000;
+    font-weight: bold;
+    font-size: 36px
+}
+
+.photo-album .filter-gallery .some-models .final a span {
+    display: inline-block;
+    position: absolute;
+    bottom: 140px;
+    left: 95px;
+    color: rgb(250, 50, 50);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.photo-album .filter-gallery .some-models .final a h6 {
+    position: absolute;
+    background-color: #333333;
+    bottom: -3px;
+    width: 95%;
+    border-radius: 20px;
+}
+
+.photo-album .filter-gallery .some-models a h3 {
+    position: absolute;
+    bottom: 200px;
+    z-index: 5;
+    width: 88%;
+    padding: 5px;
+    margin-left: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* ====================================================================== */
+/* End Our Team Seaction  */
+.our-team {
+    background: url('../img/body-background3.webp') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+}
+
+.our-team .team {
+    background-color: rgba(0, 0, 0, 0.83);
+    color: #fff;
+    min-height: 500px;
+    padding: 30px 0;
+}
+
+.our-team .team h2 {
+    margin-bottom: 40px
+}
+
+.our-team .team .person {
+    margin-bottom: 40px;
+    color: #bfbfbf
+}
+
+.our-team .team .person>img {
+    width: 200px;
+    height: 200px
+}
+
+.our-team .team .person a i {
+    color: #fff
+}
+
+/* ====================================================================== */
+/* start Section Subscribe */
+.subscribe {
+    background-color: #eee;
+    padding: 30px 0
+}
+
+.subscribe h2,
+.subscribe .lead {
+    margin-bottom: 40px
+}
+
+.subscribe .form-inline .form-control {
+    border-radius: 0;
+    width: 450px
+}
+
+.subscribe .form-inline .btn-danger {
+    margin: -4px;
+    border-radius: 0
+}
+
+/* ====================================================================== */
+/* start Statistic Section  */
+.statistified {
+    min-height: 300px
+}
+
+.statistified .statis-wall {
+    background-color: rgba(0, 0, 0, 0.81);
+    width: 100%;
+    min-height: 300px;
+    color: rgb(167, 167, 167);
+    padding: 40px 0;
+}
+
+.statistified .statis-wall h2 {
+    margin-bottom: 55px;
+    color: #fff
+}
+
+.statistified .statis-wall .stats {
+    margin-bottom: 40px;
+    transition: all .5s ease-in-out;
+}
+
+.statistified .statis-wall .stats:hover {
+    color: #fff
+}
+
+.statistified .statis-wall .stats p {
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.statistified .statis-wall .stats span {
+    font-size: 15px
+}
+
+/* ====================================================================== */
+/* Start Contact Us Section  */
+.contact-us {
+    background: url('../img/body-background4.webp') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+}
+
+.contact-us .contact-wall {
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 100%;
+    min-height: 400px;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.contact-us .contact-wall p {
+    margin-bottom: 40px
+}
+
+.contact-us .contact-wall .inputs input.form-control {
+    height: 45px;
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+.contact-us .contact-wall .inputs textarea.form-control {
+    height: 100px;
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+.contact-us .contact-wall .mobiles {
+    text-align: left
+}
+
+.contact-us .contact-wall .mobiles li {
+    font-size: 12px
+}
+
+.contact-us .contact-wall .mobiles li i {
+    font-size: 24px;
+    color: rgb(255, 50, 50);
+    margin: 5px;
+    width: 25px
+}
+
+.contact-us .contact-wall .bookmarks li {
+    display: inline-block;
+    margin-top: 20px;
+    opacity: .6;
+    filter: opacity(70);
+    transition: all .4s ease-in-out;
+}
+
+.contact-us .contact-wall .bookmarks li:hover {
+    opacity: 1
+}
+
+.contact-us .contact-wall .bookmarks img {
+    width: 50px;
+    height: 50px;
+    border: 3px double #828282
+}
+
+/* ====================================================================== */
+/* Start Our Client Section  */
+.our-client {
+    padding: 40px 0;
+    background-color: #eee
+}
+
+.our-client h2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: bold
+}
+
+.our-client img {
+    width: 100%;
+    opacity: .4;
+    transition: all .5s ease-in-out
+}
+
+.our-client img:hover {
+    opacity: 1
+}
+
+/* ====================================================================== */
+/* Start Footer */
+.footer {
+    padding: 40px 0;
+    background-color: #383838;
+    color: #bfbfbf
+}
+
+.footer h3 {
+    margin-bottom: 30px;
+    letter-spacing: 2px
+}
+
+.footer .site-map li {
+    padding: 8px 0;
+    font-size: 17px
+}
+
+.footer .bookmarks li {
+    display: inline-block;
+    margin-top: 20px;
+    opacity: .3;
+    filter: opacity(70);
+    transition: all .4s ease-in-out;
+}
+
+.footer .bookmarks li:hover {
+    opacity: 1
+}
+
+.footer .bookmarks img {
+    width: 50px;
+    height: 50px;
+    border: 3px double #828282
+}
+
+.footer .media .media-object {
+    width: 100px
+}
+
+.footer .media .media-left {
+    padding-right: 20px
+}
+
+.footer .media .media-body {
+    color: #bfbfbf;
+    padding-right: 15px
+}
+
+.footer .media .media-body h4 {
+    color: #fff
+}
+
+.footer .img-thumbnail {
+    width: 150px;
+    background-color: #949494;
+    border: 1px solid #bfbfbf;
+    margin-bottom: 5px;
+}
+
+.footer .works {
+    padding: 3px
+}
+
+.copyright {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+.copyright a {
+    color: #fff
+}
+
+.copyright a span {
+    color: rgb(250, 50, 50)
+}
+
+/* ====================================================================== */
+/* Start Scroll to top */
+
+
+.srcoll-to-top {
+    width: 45px;
+    height: 30px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    z-index: 999;
+    border-radius: 50%;
+    display: none;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    background-color: #000;
+}
+
+.srcoll-to-top:hover {
+    color: rgb(133, 0, 0)
+}
+
+/* Start why-us page 
+/* ================================= */
+.why-us {
+    display: none;
+}
+
+.why-us img {
+    width: 100%;
+}
+
+.why-us h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.why-us h2 span {
+    color: rgb(250, 50, 50);
+}
+
+.why-us .article-us h3 {
+    color: rgb(64, 64, 64);
+    font-weight: bold;
+}
+
+.why-us .article-us h3 span {
+    color: rgb(250, 50, 50);
+}
+
+.why-us .article-us p.lead {
+    color: rgb(78, 78, 78);
+}
+
+/* End Of Style */

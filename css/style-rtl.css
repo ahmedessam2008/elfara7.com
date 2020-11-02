@@ -1,0 +1,13 @@
+body {direction: rtl}
+
+.nav > li {
+  float: right;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -25px;
+}
+
+.langs {
+  float: left;
+}

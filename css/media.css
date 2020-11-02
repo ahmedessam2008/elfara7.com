@@ -1,0 +1,303 @@
+/* smart Phones And Tablets */
+@media (max-width: 767px) {
+    .navbar-form .form-control {
+        width: 400px
+    }
+
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        text-align: center;
+        margin: 0 auto
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 4px;
+        padding-bottom: 5px;
+        line-height: 18px
+    }
+
+    .about h1 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 25px
+    }
+
+    .about .lead {
+        font-size: 12px
+    }
+
+    our-features h2 {
+        margin-bottom: 30px
+    }
+
+    .h1 {
+        font-size: 25px
+    }
+
+    .our-features .feat .overlay h3 {
+        background-color: rgba(255, 255, 255, 0);
+        margin-bottom: 0px
+    }
+
+    .our-features .feat .overlay h3:hover {
+        height: 50px;
+        line-height: normal
+    }
+
+    .our-features .feat .overlay h3:not(.front):hover {
+        height: 50px;
+        line-height: normal
+    }
+
+    .for-you h2,
+    .services h2 {
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+
+    .h1 {
+        font-size: 22px
+    }
+
+    .for-you .lead {
+        font-size: 12px
+    }
+
+    .for-you .slice-1 {
+        min-height: 415px
+    }
+
+    .for-you .slice-1 .more a {
+        bottom: -20px
+    }
+
+    .services .serv h3 {
+        margin-top: 10px
+    }
+
+    .services .serv .price {
+        margin-bottom: 22px
+    }
+
+    .services .all-serv {
+        margin-top: 12px
+    }
+
+    .photo-album .filter-nav .btn {
+        font-size: 12px
+    }
+
+    .photo-album .filter-gallery .mix a h6 {
+        width: 93%
+    }
+
+    .photo-album .filter-gallery .some-models {
+        min-height: 314px
+    }
+
+    .photo-album .filter-gallery .some-models .final a p.all-1 {
+        font-size: 30px
+    }
+
+    .photo-album .filter-gallery .some-models a h3 {
+        bottom: 125px
+    }
+
+    .photo-album .filter-gallery .some-models .final a span {
+        bottom: 70px;
+        left: 77px
+    }
+
+    .subscribe .form-inline .form-control {
+        margin: 9px auto
+    }
+
+    .subscribe h2 {
+        margin-bottom: 15px
+    }
+
+    .subscribe .lead {
+        margin-bottom: 20px
+    }
+
+    .statistified .statis-wall h2 {
+        margin-bottom: 20px;
+        margin-top: 10px
+    }
+
+    .contact-us .contact-wall .inputs button.btn-block {
+        margin-bottom: 25px
+    }
+
+    .footer h3 {
+        margin-bottom: 18px;
+        margin-top: 8px
+    }
+
+    .footer .site-map li {
+        padding: 6px 0;
+        font-size: 12px
+    }
+
+    .footer h3 {
+        margin-top: 18px
+    }
+
+    .footer .works {
+        text-align: center
+    }
+}
+
+/* ======================================= */
+/* Small Screen  */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 16px;
+        padding: 15px 15px
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 15px 4px;
+        font-size: 14px
+    }
+
+    .navbar-form {
+        margin-right: 20px;
+        padding: 0px
+    }
+
+    .navbar-form .form-group .form-control {
+        width: 180px
+    }
+
+    .btn-default {
+        width: 50px;
+        font-size: 11px;
+        padding: 6px 2px
+    }
+
+    .nav>li>a {
+        padding: 10px 8px
+    }
+
+    .our-features .feat .overlay h3 {
+        width: 92%
+    }
+
+    .for-you .slice-1 .more a {
+        bottom: 0
+    }
+
+    .services .serv .imgy a img {
+        width: 200px;
+        height: 200px
+    }
+
+    .services .serv .imgy a img:hover {
+        opacity: 1;
+        height: 260px
+    }
+
+    .photo-album .filter-nav .btn {
+        font-size: 12px
+    }
+
+    .photo-album .filter-gallery .mix a h6 {
+        width: 93.6%
+    }
+
+    .photo-album .filter-gallery .some-models {
+        min-height: 333px
+    }
+
+    .photo-album .filter-gallery .some-models .final a p.all-1 {
+        font-size: 38px
+    }
+
+    .photo-album .filter-gallery .some-models .final a span {
+        bottom: 75px;
+        left: 80px
+    }
+
+    .photo-album .filter-gallery .some-models a h3 {
+        bottom: 120px
+    }
+
+    .footer .works {
+        text-align: center
+    }
+}
+
+/* ========================================== */
+/* Medium Screen  */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 20px;
+        padding: 15px 15px
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 15px 8px
+    }
+
+    .navbar-form {
+        margin-right: 20px;
+        padding: 0px
+    }
+
+    .navbar-form .form-group .form-control {
+        width: 280px
+    }
+
+    .nav>li>a {
+        padding: 10px 8px
+    }
+
+    .for-you .slice-1 .more a {
+        bottom: 0
+    }
+
+    .services .serv .imgy a img {
+        width: 260px;
+        height: 260px
+    }
+
+    .services .serv .imgy a img:hover {
+        opacity: 1;
+        height: 260px
+    }
+
+    .photo-album .filter-nav .btn {
+        font-size: 10.5px
+    }
+
+    .photo-album .filter-gallery .mix a h6 {
+        width: 93%
+    }
+
+    .photo-album .filter-gallery .some-models {
+        min-height: 325px
+    }
+
+    .photo-album .filter-gallery .some-models .final a p.all-1 {
+        font-size: 28px
+    }
+
+    .photo-album .filter-gallery .some-models .final a span {
+        bottom: 90px;
+        left: 80px
+    }
+
+    .photo-album .filter-gallery .some-models a h3 {
+        bottom: 145px
+    }
+
+    .contact-us .contact-wall .bookmarks img {
+        width: 45px;
+        height: 45px
+    }
+}
+
+/* ======================================== */
+/* Larg Screen  */
+@media (min-width: 1200px) {}
